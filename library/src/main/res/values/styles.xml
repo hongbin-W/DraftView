@@ -1,0 +1,16 @@
+<resources>
+
+    <declare-styleable name="DraftView">
+        <!-- Sets a drawable as the content of this ImageView. -->
+        <!--线的颜色-->
+        <attr name="paint_color" format="reference|color" />
+        <!--线的宽度-->
+        <attr name="line_width" format="float" />
+        <!--线拐角的角度-->
+        <attr name="line_corner" format="float" />
+        <!--背景色-->
+        <attr name="background_color" format="reference|color" />
+        <!-- ...snipped for brevity... -->
+    </declare-styleable>
+
+</resources>
